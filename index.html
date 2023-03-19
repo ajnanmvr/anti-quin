@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tailwind CSS Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>module.exports = {
             // ...
@@ -13,6 +16,7 @@
                 require('@tailwindcss/aspect-ratio'),
             ],
         };</script>
+
 </head>
 
 <body>
@@ -68,7 +72,7 @@
                         <a class="" href="">
                             <div
                                 class="absolute -top-1 right-0 z-10 bg-yellow-400 text-xs font-bold px-1 py-0.5 rounded-sm">
-                                3</div>
+                                0</div>
                             <svg class="h-9 lg:h-10 p-2 text-gray-500" aria-hidden="true" focusable="false"
                                 data-prefix="far" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 512 512" class="svg-inline--fa fa-heart fa-w-16 fa-9x">
@@ -82,7 +86,7 @@
                         <a class="" href="">
                             <div
                                 class="absolute -top-1 right-0 z-10 bg-yellow-400 text-xs font-bold px-1 py-0.5 rounded-sm">
-                                12</div>
+                                0</div>
                             <svg class="h-9 lg:h-10 p-2 text-gray-500" aria-hidden="true" focusable="false"
                                 data-prefix="far" data-icon="shopping-cart" role="img"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
@@ -99,7 +103,7 @@
             <!-- cart count -->
             <div class="ml-4 hidden sm:flex flex-col font-bold">
                 <span class="text-xs text-gray-400">Your Cart</span>
-                <span> &#x20B9;2,650,59</span>
+                <span> &#x20B9;000.00</span>
             </div>
         </div>
 
@@ -107,49 +111,7 @@
     </header>
     <main>
         <!-- Slider -->
-        <section>
-            <style>
-                @import url(https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css);
-            </style>
-            <div class="min-w-screen min-h-screen bg-yellow-300 flex items-center p-5 lg:p-10 overflow-hidden relative">
-                <div
-                    class="w-full max-w-6xl rounded bg-white shadow-xl p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left">
-                    <div class="md:flex items-center -mx-10">
-                        <div class="w-full md:w-1/2 px-10 mb-10 md:mb-0">
-                            <div class="relative">
-                                <img src="https://pngimg.com/uploads/raincoat/raincoat_PNG53.png"
-                                    class="w-full relative z-10" alt="">
-                                <div class="border-4 border-yellow-200 absolute top-10 bottom-10 left-10 right-10 z-0">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-full md:w-1/2 px-10">
-                            <div class="mb-10">
-                                <h1 class="font-bold uppercase text-2xl mb-5">Mens's Ragged <br>Waterproof Jacket</h1>
-                                <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Eos,
-                                    voluptatum dolorum! Laborum blanditiis consequatur, voluptates, sint enim fugiat
-                                    saepe, dolor fugit, magnam explicabo eaque quas id quo porro dolorum facilis... <a
-                                        href="#"
-                                        class="opacity-50 text-gray-900 hover:opacity-100 inline-block text-xs leading-none border-b border-gray-900">MORE
-                                        <i class="mdi mdi-arrow-right"></i></a></p>
-                            </div>
-                            <div>
-                                <div class="inline-block align-bottom mr-5">
-                                    <span class="text-2xl leading-none align-baseline"> &#x20B9;</span>
-                                    <span class="font-bold text-5xl leading-none align-baseline">59</span>
-                                    <span class="text-2xl leading-none align-baseline">.99</span>
-                                </div>
-                                <div class="inline-block align-bottom">
-                                    <button
-                                        class="bg-yellow-300 opacity-75 hover:opacity-100 text-yellow-900 hover:text-gray-900 rounded-full px-10 py-2 font-semibold"><i
-                                            class="mdi mdi-cart -ml-2 mr-2"></i> BUY NOW</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
         <!-- products list  -->
 
@@ -158,94 +120,44 @@
                 <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
                     <h2 class="text-2xl font-bold tracking-tight text-gray-900">Featured Products</h2>
 
-                    <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-                        <div class="group relative">
-                            <div
-                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                                <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-                                    alt="Front of men&#039;s Basic Tee in black."
-                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                            </div>
-                            <div class="mt-4 flex justify-between">
-                                <div>
-                                    <h3 class="text-sm text-gray-700">
-                                        <a href="#">
-                                            <span aria-hidden="true" class="absolute inset-0"></span>
-                                            Basic Tee
-                                        </a>
-                                    </h3>
-                                    <p class="mt-1 text-sm text-gray-500">Black</p>
-                                </div>
-                                <p class="text-sm font-medium text-gray-900"> &#x20B9;35</p>
-                            </div>
-                        </div>
+                    <div id="myproducts"
+                        class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 
-                        <!-- More products... -->
-                                                <div class="group relative">
-                            <div
-                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                                <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-                                    alt="Front of men&#039;s Basic Tee in black."
-                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                            </div>
-                            <div class="mt-4 flex justify-between">
-                                <div>
-                                    <h3 class="text-sm text-gray-700">
-                                        <a href="#">
-                                            <span aria-hidden="true" class="absolute inset-0"></span>
-                                            Basic Tee
-                                        </a>
-                                    </h3>
-                                    <p class="mt-1 text-sm text-gray-500">Black</p>
-                                </div>
-                                <p class="text-sm font-medium text-gray-900"> &#x20B9;35</p>
-                            </div>
-                        </div>
-                                                <div class="group relative">
-                            <div
-                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                                <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-                                    alt="Front of men&#039;s Basic Tee in black."
-                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                            </div>
-                            <div class="mt-4 flex justify-between">
-                                <div>
-                                    <h3 class="text-sm text-gray-700">
-                                        <a href="#">
-                                            <span aria-hidden="true" class="absolute inset-0"></span>
-                                            Basic Tee
-                                        </a>
-                                    </h3>
-                                    <p class="mt-1 text-sm text-gray-500">Black</p>
-                                </div>
-                                <p class="text-sm font-medium text-gray-900"> &#x20B9;35</p>
-                            </div>
-                        </div>
-                                                <div class="group relative">
-                            <div
-                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                                <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
-                                    alt="Front of men&#039;s Basic Tee in black."
-                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                            </div>
-                            <div class="mt-4 flex justify-between">
-                                <div>
-                                    <h3 class="text-sm text-gray-700">
-                                        <a href="#">
-                                            <span aria-hidden="true" class="absolute inset-0"></span>
-                                            Basic Tee
-                                        </a>
-                                    </h3>
-                                    <p class="mt-1 text-sm text-gray-500">Black</p>
-                                </div>
-                                <p class="text-sm font-medium text-gray-900"> &#x20B9;35</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <script>
+        const url = 'http://localhost:3127/';
+                let list = ""
+        fetch(url + "products")
+            .then(res => res.json())
+            .then(data => {
+                console.log(data.buyButton);
+                data.data.map((v, i) => {
+                    list += `<div class="group relative">
+                            <a href="${v.buyButton}">
+                            <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+                            <img src="${url + "uploads/" + v.images[0]}" alt="image of ${v.title}" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                            <div>
+                            <h3 class="text-sm text-gray-700">
+                            <span aria-hidden="true" class="absolute inset-0"></span>${v.title}</h3>
+                            </div><p class="text-xl font-bold text-gray-900">
+                            &#x20B9;${v.price}</p></div>
+                            <button class="bg-yellow-400 w-full p-1 mt-2 rounded font-semibold">
+                            <i class="fa-brands fa-whatsapp"></i> Buy Now</button><a/></div>`
+                })
+                document.querySelector('#myproducts').innerHTML = list
+                console.log(list);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+
+    </script>
 </body>
 
 </html>
